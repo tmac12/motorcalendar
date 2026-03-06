@@ -1,0 +1,40 @@
+---
+import type { Race, Championship } from '../utils/calendar';
+
+interface Props {
+  championship: Championship;
+  nextRace: Race | null;
+}
+
+const { championship, nextRace } = Astro.props;
+const siteUrl = 'https://motorcalendar.it';
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": championship.championship, "item": `${siteUrl}/${championship.slug}/` }
+  ]
+};
+
+const events = championship.races.map(race => ({
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": `${race.name} - ${championship.championship} ${championship.season}`,
+  "startDate": race.startDate,
+  "endDate": race.endDate,
+  "location": {
+    "@type": "Place",
+    "name": race.circuit,
+    "address": { "@type": "PostalAddress", "addressCountry": race.countryCode }
+  },
+  "sport": championship.championship === "Formula 1" ? "Formula 1" : "Motorcycle racing",
+  "organizer": { "@type": "Organization", "name": championship.championship }
+}));
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumb)} />
+{events.map(event => (
+  <script type="application/ld+json" set:html={JSON.stringify(event)} />
+))}

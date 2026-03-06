@@ -1,0 +1,70 @@
+---
+import type { Race } from '../utils/calendar';
+import { getDayName, formatDate, groupSessionsByDay, isToday, countryCodeToFlag } from '../utils/calendar';
+
+interface Props {
+  race: Race;
+  color: string;
+}
+
+const { race, color } = Astro.props;
+const sessionsByDay = groupSessionsByDay(race.sessions);
+const days = Object.keys(sessionsByDay).sort();
+const flag = countryCodeToFlag(race.countryCode);
+---
+
+<section class="max-w-5xl mx-auto px-4 pt-6 pb-4">
+  <article class="rounded-2xl border border-slate-700/50 bg-slate-800/50 overflow-hidden">
+    <div class="px-6 py-5 border-b border-slate-700/30" style={`border-top: 3px solid ${color}`}>
+      <p class="text-sm font-medium text-slate-400 uppercase tracking-wider mb-1">Prossimo appuntamento</p>
+      <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+        <span class="text-3xl" aria-label={race.country}>{flag}</span>
+        {race.name}
+      </h2>
+      <p class="text-slate-400 mt-1">
+        {race.circuit} &middot; {formatDate(race.startDate)} - {formatDate(race.endDate)}
+      </p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-slate-700/30">
+      {days.map(day => {
+        const dayIsToday = isToday(day);
+        return (
+          <div class:list={['px-6 py-4', dayIsToday && 'bg-slate-700/20']}>
+            <h3 class:list={[
+              'text-sm font-bold uppercase tracking-wider mb-3',
+              dayIsToday ? 'text-white' : 'text-slate-500'
+            ]}>
+              {getDayName(day)} {new Date(day + 'T00:00:00').getDate()}
+              {dayIsToday && (
+                <span class="ml-2 text-xs px-2 py-0.5 rounded-full text-white" style={`background: ${color}`}>
+                  OGGI
+                </span>
+              )}
+            </h3>
+            <ul class="space-y-2">
+              {sessionsByDay[day].map(session => {
+                const isRace = session.shortName === 'GARA' || session.shortName === 'GARA1' || session.shortName === 'GARA2';
+                return (
+                  <li class="flex items-center justify-between">
+                    <span class:list={[
+                      'text-sm',
+                      isRace ? 'font-bold text-white' : 'text-slate-300'
+                    ]}>
+                      {session.name}
+                    </span>
+                    <time class:list={[
+                      'text-sm font-mono tabular-nums',
+                      isRace ? 'font-bold text-white' : 'text-slate-400'
+                    ]}>
+                      {session.time}
+                    </time>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        );
+      })}
+    </div>
+  </article>
+</section>

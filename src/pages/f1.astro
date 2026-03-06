@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import NextRace from '../components/NextRace.astro';
+import CalendarGrid from '../components/CalendarGrid.astro';
+import SEOHead from '../components/SEOHead.astro';
+import data from '../data/f1-2026.json';
+import { getNextRace } from '../utils/calendar';
+import type { Championship } from '../utils/calendar';
+
+const championship = data as Championship;
+const nextRace = getNextRace(championship.races);
+const title = `Orari F1 2026 - Calendario e Orari Gare Formula 1 | MotorCalendar`;
+const description = nextRace
+  ? `Calendario F1 2026 con tutti gli orari delle gare in ora italiana. Prossimo GP: ${nextRace.name}.`
+  : `Calendario completo Formula 1 2026 con orari di tutte le sessioni in ora italiana.`;
+---
+
+<Layout title={title} description={description} canonical="/f1/">
+  <SEOHead slot="head" championship={championship} nextRace={nextRace} />
+  <Header active="f1" />
+  <main>
+    {nextRace && <NextRace race={nextRace} color={championship.color} />}
+    <CalendarGrid races={championship.races} color={championship.color} />
+  </main>
+  <footer class="max-w-5xl mx-auto px-4 py-8 text-center text-xs text-slate-600 border-t border-slate-800">
+    <p>MotorCalendar - Tutti gli orari sono in ora italiana (CET/CEST). Dati indicativi, verificare sempre le fonti ufficiali.</p>
+  </footer>
+</Layout>

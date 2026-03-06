@@ -1,0 +1,36 @@
+---
+interface Props {
+  active: 'f1' | 'motogp' | 'superbike';
+}
+
+const { active } = Astro.props;
+
+const categories = [
+  { slug: 'f1', label: 'F1', href: '/f1/', color: 'bg-f1' },
+  { slug: 'motogp', label: 'MotoGP', href: '/motogp/', color: 'bg-motogp' },
+  { slug: 'superbike', label: 'SBK', href: '/superbike/', color: 'bg-sbk' },
+];
+---
+
+<header class="border-b border-slate-700/50 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+  <nav class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/f1/" class="text-xl font-bold tracking-tight text-white">
+      Motor<span class="text-slate-400">Calendar</span>
+    </a>
+    <div class="flex gap-2">
+      {categories.map(cat => (
+        <a
+          href={cat.href}
+          class:list={[
+            'px-3 py-1.5 rounded-full text-sm font-semibold transition-colors',
+            active === cat.slug
+              ? `${cat.color} text-white`
+              : 'bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700'
+          ]}
+        >
+          {cat.label}
+        </a>
+      ))}
+    </div>
+  </nav>
+</header>

@@ -3,6 +3,8 @@ export interface Session {
   shortName: string;
   date: string;
   time: string;
+  tv?: string;
+  tvTime?: string;
 }
 
 export interface Race {

@@ -12,11 +12,40 @@
       "startDate": "2026-03-13",
       "endDate": "2026-03-15",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-03-13", "time": "03:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-03-13", "time": "07:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-03-14", "time": "03:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-03-14", "time": "07:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-03-15", "time": "06:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-03-13",
+          "time": "03:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-03-13",
+          "time": "07:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-03-14",
+          "time": "03:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-03-14",
+          "time": "07:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-03-15",
+          "time": "06:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        }
       ]
     },
     {
@@ -27,11 +56,40 @@
       "startDate": "2026-03-27",
       "endDate": "2026-03-29",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-03-27", "time": "05:30" },
-        { "name": "Sprint Qualifying", "shortName": "SQ", "date": "2026-03-27", "time": "09:30" },
-        { "name": "Sprint", "shortName": "SPRINT", "date": "2026-03-28", "time": "05:00" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-03-28", "time": "09:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-03-29", "time": "09:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-03-27",
+          "time": "05:30"
+        },
+        {
+          "name": "Sprint Qualifying",
+          "shortName": "SQ",
+          "date": "2026-03-27",
+          "time": "09:30"
+        },
+        {
+          "name": "Sprint",
+          "shortName": "SPRINT",
+          "date": "2026-03-28",
+          "time": "05:00"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-03-28",
+          "time": "09:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-03-29",
+          "time": "09:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        }
       ]
     },
     {
@@ -42,11 +100,40 @@
       "startDate": "2026-04-10",
       "endDate": "2026-04-12",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-04-10", "time": "05:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-04-10", "time": "09:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-04-11", "time": "05:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-04-11", "time": "09:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-04-12", "time": "08:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-04-10",
+          "time": "05:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-04-10",
+          "time": "09:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-04-11",
+          "time": "05:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-04-11",
+          "time": "09:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-04-12",
+          "time": "08:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        }
       ]
     },
     {
@@ -57,11 +144,40 @@
       "startDate": "2026-04-17",
       "endDate": "2026-04-19",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-04-17", "time": "14:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-04-17", "time": "18:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-04-18", "time": "15:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-04-18", "time": "19:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-04-19", "time": "18:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-04-17",
+          "time": "14:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-04-17",
+          "time": "18:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-04-18",
+          "time": "15:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-04-18",
+          "time": "19:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-04-19",
+          "time": "18:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -72,11 +188,40 @@
       "startDate": "2026-04-24",
       "endDate": "2026-04-26",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-04-24", "time": "15:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-04-24", "time": "19:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-04-25", "time": "15:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-04-25", "time": "19:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-04-26", "time": "19:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-04-24",
+          "time": "15:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-04-24",
+          "time": "19:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-04-25",
+          "time": "15:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-04-25",
+          "time": "19:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-04-26",
+          "time": "19:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -87,11 +232,40 @@
       "startDate": "2026-05-01",
       "endDate": "2026-05-03",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-05-01", "time": "20:30" },
-        { "name": "Sprint Qualifying", "shortName": "SQ", "date": "2026-05-02", "time": "00:30" },
-        { "name": "Sprint", "shortName": "SPRINT", "date": "2026-05-02", "time": "20:00" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-05-03", "time": "00:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-05-03", "time": "22:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-05-01",
+          "time": "20:30"
+        },
+        {
+          "name": "Sprint Qualifying",
+          "shortName": "SQ",
+          "date": "2026-05-02",
+          "time": "00:30"
+        },
+        {
+          "name": "Sprint",
+          "shortName": "SPRINT",
+          "date": "2026-05-02",
+          "time": "20:00"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-05-03",
+          "time": "00:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-05-03",
+          "time": "22:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        }
       ]
     },
     {
@@ -102,11 +276,40 @@
       "startDate": "2026-05-15",
       "endDate": "2026-05-17",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-05-15", "time": "14:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-05-15", "time": "18:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-05-16", "time": "13:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-05-16", "time": "17:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-05-17", "time": "16:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-05-15",
+          "time": "14:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-05-15",
+          "time": "18:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-05-16",
+          "time": "13:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-05-16",
+          "time": "17:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -117,11 +320,40 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-31",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-05-29", "time": "19:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-05-29", "time": "23:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-05-30", "time": "19:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-05-30", "time": "23:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-05-31", "time": "20:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-05-29",
+          "time": "19:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-05-29",
+          "time": "23:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-05-30",
+          "time": "19:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-05-30",
+          "time": "23:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-05-31",
+          "time": "20:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        }
       ]
     },
     {
@@ -132,11 +364,40 @@
       "startDate": "2026-06-12",
       "endDate": "2026-06-14",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-06-12", "time": "13:30" },
-        { "name": "Sprint Qualifying", "shortName": "SQ", "date": "2026-06-12", "time": "17:30" },
-        { "name": "Sprint", "shortName": "SPRINT", "date": "2026-06-13", "time": "13:00" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-06-13", "time": "17:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-06-14", "time": "16:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-06-12",
+          "time": "13:30"
+        },
+        {
+          "name": "Sprint Qualifying",
+          "shortName": "SQ",
+          "date": "2026-06-12",
+          "time": "17:30"
+        },
+        {
+          "name": "Sprint",
+          "shortName": "SPRINT",
+          "date": "2026-06-13",
+          "time": "13:00"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-06-13",
+          "time": "17:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-06-14",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -147,11 +408,40 @@
       "startDate": "2026-06-26",
       "endDate": "2026-06-28",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-06-26", "time": "14:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-06-26", "time": "18:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-06-27", "time": "13:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-06-27", "time": "16:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-06-28", "time": "16:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-06-26",
+          "time": "14:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-06-26",
+          "time": "18:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-06-27",
+          "time": "13:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-06-27",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-06-28",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -162,11 +452,40 @@
       "startDate": "2026-07-10",
       "endDate": "2026-07-12",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-07-10", "time": "14:30" },
-        { "name": "Sprint Qualifying", "shortName": "SQ", "date": "2026-07-10", "time": "18:30" },
-        { "name": "Sprint", "shortName": "SPRINT", "date": "2026-07-11", "time": "13:00" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-07-11", "time": "17:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-07-12", "time": "16:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-07-10",
+          "time": "14:30"
+        },
+        {
+          "name": "Sprint Qualifying",
+          "shortName": "SQ",
+          "date": "2026-07-10",
+          "time": "18:30"
+        },
+        {
+          "name": "Sprint",
+          "shortName": "SPRINT",
+          "date": "2026-07-11",
+          "time": "13:00"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-07-11",
+          "time": "17:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-07-12",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -177,11 +496,40 @@
       "startDate": "2026-07-24",
       "endDate": "2026-07-26",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-07-24", "time": "14:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-07-24", "time": "18:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-07-25", "time": "13:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-07-25", "time": "17:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-07-26", "time": "16:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-07-24",
+          "time": "14:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-07-24",
+          "time": "18:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-07-25",
+          "time": "13:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-07-25",
+          "time": "17:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-07-26",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -192,11 +540,40 @@
       "startDate": "2026-08-14",
       "endDate": "2026-08-16",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-08-14", "time": "13:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-08-14", "time": "17:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-08-15", "time": "12:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-08-15", "time": "16:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-08-16", "time": "16:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-08-14",
+          "time": "13:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-08-14",
+          "time": "17:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-08-15",
+          "time": "12:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-08-15",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-08-16",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -207,11 +584,40 @@
       "startDate": "2026-08-28",
       "endDate": "2026-08-30",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-08-28", "time": "14:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-08-28", "time": "18:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-08-29", "time": "13:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-08-29", "time": "17:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-08-30", "time": "16:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-08-28",
+          "time": "14:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-08-28",
+          "time": "18:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-08-29",
+          "time": "13:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-08-29",
+          "time": "17:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-08-30",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -222,11 +628,40 @@
       "startDate": "2026-09-18",
       "endDate": "2026-09-20",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-09-18", "time": "12:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-09-18", "time": "16:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-09-19", "time": "12:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-09-19", "time": "16:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-09-20", "time": "15:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-09-18",
+          "time": "12:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-09-18",
+          "time": "16:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-09-19",
+          "time": "12:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-09-19",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-09-20",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -237,11 +672,40 @@
       "startDate": "2026-10-16",
       "endDate": "2026-10-18",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-10-16", "time": "20:30" },
-        { "name": "Sprint Qualifying", "shortName": "SQ", "date": "2026-10-17", "time": "00:30" },
-        { "name": "Sprint", "shortName": "SPRINT", "date": "2026-10-17", "time": "21:00" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-10-18", "time": "01:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-10-18", "time": "21:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-10-16",
+          "time": "20:30"
+        },
+        {
+          "name": "Sprint Qualifying",
+          "shortName": "SQ",
+          "date": "2026-10-17",
+          "time": "00:30"
+        },
+        {
+          "name": "Sprint",
+          "shortName": "SPRINT",
+          "date": "2026-10-17",
+          "time": "21:00"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-10-18",
+          "time": "01:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-10-18",
+          "time": "21:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        }
       ]
     },
     {
@@ -252,11 +716,40 @@
       "startDate": "2026-10-23",
       "endDate": "2026-10-25",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-10-23", "time": "21:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-10-24", "time": "01:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-10-24", "time": "20:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-10-25", "time": "00:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-10-25", "time": "22:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-10-23",
+          "time": "21:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-10-24",
+          "time": "01:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-10-24",
+          "time": "20:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-10-25",
+          "time": "00:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-10-25",
+          "time": "22:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        }
       ]
     },
     {
@@ -267,11 +760,40 @@
       "startDate": "2026-11-06",
       "endDate": "2026-11-08",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-11-06", "time": "16:30" },
-        { "name": "Sprint Qualifying", "shortName": "SQ", "date": "2026-11-06", "time": "20:30" },
-        { "name": "Sprint", "shortName": "SPRINT", "date": "2026-11-07", "time": "16:00" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-11-07", "time": "20:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-11-08", "time": "19:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-11-06",
+          "time": "16:30"
+        },
+        {
+          "name": "Sprint Qualifying",
+          "shortName": "SQ",
+          "date": "2026-11-06",
+          "time": "20:30"
+        },
+        {
+          "name": "Sprint",
+          "shortName": "SPRINT",
+          "date": "2026-11-07",
+          "time": "16:00"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-11-07",
+          "time": "20:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-11-08",
+          "time": "19:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -282,11 +804,40 @@
       "startDate": "2026-11-20",
       "endDate": "2026-11-22",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-11-21", "time": "03:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-11-21", "time": "07:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-11-22", "time": "03:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-11-22", "time": "07:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-11-22", "time": "07:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-11-21",
+          "time": "03:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-11-21",
+          "time": "07:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-11-22",
+          "time": "03:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-11-22",
+          "time": "07:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-11-22",
+          "time": "07:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
+        }
       ]
     },
     {
@@ -297,11 +848,40 @@
       "startDate": "2026-11-27",
       "endDate": "2026-11-29",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-11-27", "time": "15:30" },
-        { "name": "Sprint Qualifying", "shortName": "SQ", "date": "2026-11-27", "time": "19:30" },
-        { "name": "Sprint", "shortName": "SPRINT", "date": "2026-11-28", "time": "15:00" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-11-28", "time": "19:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-11-29", "time": "18:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-11-27",
+          "time": "15:30"
+        },
+        {
+          "name": "Sprint Qualifying",
+          "shortName": "SQ",
+          "date": "2026-11-27",
+          "time": "19:30"
+        },
+        {
+          "name": "Sprint",
+          "shortName": "SPRINT",
+          "date": "2026-11-28",
+          "time": "15:00"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-11-28",
+          "time": "19:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-11-29",
+          "time": "18:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     },
     {
@@ -312,11 +892,40 @@
       "startDate": "2026-12-04",
       "endDate": "2026-12-06",
       "sessions": [
-        { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-12-04", "time": "11:30" },
-        { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-12-04", "time": "15:00" },
-        { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-12-05", "time": "12:30" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-12-05", "time": "16:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-12-06", "time": "15:00" }
+        {
+          "name": "Prove Libere 1",
+          "shortName": "FP1",
+          "date": "2026-12-04",
+          "time": "11:30"
+        },
+        {
+          "name": "Prove Libere 2",
+          "shortName": "FP2",
+          "date": "2026-12-04",
+          "time": "15:00"
+        },
+        {
+          "name": "Prove Libere 3",
+          "shortName": "FP3",
+          "date": "2026-12-05",
+          "time": "12:30"
+        },
+        {
+          "name": "Qualifiche",
+          "shortName": "QUAL",
+          "date": "2026-12-05",
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        },
+        {
+          "name": "Gara",
+          "shortName": "GARA",
+          "date": "2026-12-06",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "21:30"
+        }
       ]
     }
   ]

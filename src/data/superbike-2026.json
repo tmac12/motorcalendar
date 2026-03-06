@@ -12,10 +12,36 @@
       "startDate": "2026-02-20",
       "endDate": "2026-02-22",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-02-21", "time": "03:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-02-21", "time": "05:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-02-22", "time": "03:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-02-22", "time": "05:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-02-21",
+          "time": "03:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-02-21",
+          "time": "05:00",
+          "tv": "TV8",
+          "tvTime": "14:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-02-22",
+          "time": "03:00",
+          "tv": "TV8",
+          "tvTime": "14:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-02-22",
+          "time": "05:00",
+          "tv": "TV8",
+          "tvTime": "14:00"
+        }
       ]
     },
     {
@@ -26,10 +52,36 @@
       "startDate": "2026-03-27",
       "endDate": "2026-03-29",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-03-28", "time": "12:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-03-28", "time": "15:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-03-29", "time": "12:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-03-29", "time": "15:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-03-28",
+          "time": "12:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-03-28",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-03-29",
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "13:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-03-29",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        }
       ]
     },
     {
@@ -40,10 +92,36 @@
       "startDate": "2026-04-17",
       "endDate": "2026-04-19",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-04-18", "time": "12:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-04-18", "time": "15:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-04-19", "time": "12:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-04-19", "time": "15:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-04-18",
+          "time": "12:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-04-18",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-04-19",
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "13:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-04-19",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        }
       ]
     },
     {
@@ -54,10 +132,36 @@
       "startDate": "2026-05-08",
       "endDate": "2026-05-10",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-05-09", "time": "12:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-05-09", "time": "15:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-05-10", "time": "12:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-05-10", "time": "15:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-05-09",
+          "time": "12:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-05-09",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-05-10",
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "13:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-05-10",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        }
       ]
     },
     {
@@ -68,10 +172,36 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-31",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-05-30", "time": "12:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-05-30", "time": "15:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-05-31", "time": "12:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-05-31", "time": "15:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-05-30",
+          "time": "12:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-05-30",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-05-31",
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "13:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-05-31",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        }
       ]
     },
     {
@@ -82,10 +212,36 @@
       "startDate": "2026-06-19",
       "endDate": "2026-06-21",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-06-20", "time": "12:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-06-20", "time": "15:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-06-21", "time": "12:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-06-21", "time": "15:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-06-20",
+          "time": "12:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-06-20",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-06-21",
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "13:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-06-21",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        }
       ]
     },
     {
@@ -96,10 +252,36 @@
       "startDate": "2026-07-10",
       "endDate": "2026-07-12",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-07-11", "time": "12:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-07-11", "time": "15:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-07-12", "time": "12:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-07-12", "time": "15:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-07-11",
+          "time": "12:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-07-11",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-07-12",
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "13:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-07-12",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        }
       ]
     },
     {
@@ -110,10 +292,36 @@
       "startDate": "2026-09-04",
       "endDate": "2026-09-06",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-09-05", "time": "12:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-09-05", "time": "15:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-09-06", "time": "12:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-09-06", "time": "15:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-09-05",
+          "time": "12:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-09-05",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-09-06",
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "13:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-09-06",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        }
       ]
     },
     {
@@ -124,10 +332,36 @@
       "startDate": "2026-09-18",
       "endDate": "2026-09-20",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-09-19", "time": "12:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-09-19", "time": "15:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-09-20", "time": "12:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-09-20", "time": "15:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-09-19",
+          "time": "12:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-09-19",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-09-20",
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "13:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-09-20",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        }
       ]
     },
     {
@@ -138,10 +372,36 @@
       "startDate": "2026-10-16",
       "endDate": "2026-10-18",
       "sessions": [
-        { "name": "Superpole", "shortName": "SP", "date": "2026-10-17", "time": "12:10" },
-        { "name": "Gara 1", "shortName": "GARA1", "date": "2026-10-17", "time": "15:00" },
-        { "name": "Superpole Race", "shortName": "SPR", "date": "2026-10-18", "time": "12:00" },
-        { "name": "Gara 2", "shortName": "GARA2", "date": "2026-10-18", "time": "15:00" }
+        {
+          "name": "Superpole",
+          "shortName": "SP",
+          "date": "2026-10-17",
+          "time": "12:10"
+        },
+        {
+          "name": "Gara 1",
+          "shortName": "GARA1",
+          "date": "2026-10-17",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        },
+        {
+          "name": "Superpole Race",
+          "shortName": "SPR",
+          "date": "2026-10-18",
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "13:00"
+        },
+        {
+          "name": "Gara 2",
+          "shortName": "GARA2",
+          "date": "2026-10-18",
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
+        }
       ]
     }
   ]

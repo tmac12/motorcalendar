@@ -9,42 +9,42 @@
       "circuit": "Albert Park Circuit",
       "country": "Australia",
       "countryCode": "AU",
-      "startDate": "2026-03-13",
-      "endDate": "2026-03-15",
+      "startDate": "2026-03-06",
+      "endDate": "2026-03-08",
       "sessions": [
         {
           "name": "Prove Libere 1",
           "shortName": "FP1",
-          "date": "2026-03-13",
+          "date": "2026-03-06",
           "time": "03:30"
         },
         {
           "name": "Prove Libere 2",
           "shortName": "FP2",
-          "date": "2026-03-13",
+          "date": "2026-03-06",
           "time": "07:00"
         },
         {
           "name": "Prove Libere 3",
           "shortName": "FP3",
-          "date": "2026-03-14",
+          "date": "2026-03-06",
           "time": "03:30"
         },
         {
           "name": "Qualifiche",
           "shortName": "QUAL",
-          "date": "2026-03-14",
-          "time": "07:00",
+          "date": "2026-03-07",
+          "time": "06:00",
           "tv": "TV8",
-          "tvTime": "18:00"
+          "tvTime": "14:00"
         },
         {
           "name": "Gara",
           "shortName": "GARA",
-          "date": "2026-03-15",
-          "time": "06:00",
+          "date": "2026-03-08",
+          "time": "05:00",
           "tv": "TV8",
-          "tvTime": "18:00"
+          "tvTime": "14:00"
         }
       ]
     },

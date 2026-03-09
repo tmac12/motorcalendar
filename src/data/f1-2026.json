@@ -53,42 +53,46 @@
       "circuit": "Shanghai International Circuit",
       "country": "Cina",
       "countryCode": "CN",
-      "startDate": "2026-03-27",
-      "endDate": "2026-03-29",
+      "startDate": "2026-03-13",
+      "endDate": "2026-03-15",
       "sessions": [
         {
           "name": "Prove Libere 1",
           "shortName": "FP1",
-          "date": "2026-03-27",
-          "time": "05:30"
+          "date": "2026-03-13",
+          "time": "04:30"
         },
         {
           "name": "Sprint Qualifying",
           "shortName": "SQ",
-          "date": "2026-03-27",
-          "time": "09:30"
+          "date": "2026-03-13",
+          "time": "08:30",
+          "tv": "TV8",
+          "tvTime": "08:30"
         },
         {
           "name": "Sprint",
           "shortName": "SPRINT",
-          "date": "2026-03-28",
-          "time": "05:00"
+          "date": "2026-03-14",
+          "time": "04:00",
+          "tv": "TV8",
+          "tvTime": "14:00"
         },
         {
           "name": "Qualifiche",
           "shortName": "QUAL",
-          "date": "2026-03-28",
-          "time": "09:00",
+          "date": "2026-03-14",
+          "time": "08:00",
           "tv": "TV8",
-          "tvTime": "18:00"
+          "tvTime": "15:30"
         },
         {
           "name": "Gara",
           "shortName": "GARA",
-          "date": "2026-03-29",
-          "time": "09:00",
+          "date": "2026-03-15",
+          "time": "08:00",
           "tv": "TV8",
-          "tvTime": "18:00"
+          "tvTime": "14:00"
         }
       ]
     },

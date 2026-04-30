@@ -141,94 +141,6 @@
       ]
     },
     {
-      "name": "Gran Premio del Bahrain",
-      "circuit": "Bahrain International Circuit",
-      "country": "Bahrain",
-      "countryCode": "BH",
-      "startDate": "2026-04-17",
-      "endDate": "2026-04-19",
-      "sessions": [
-        {
-          "name": "Prove Libere 1",
-          "shortName": "FP1",
-          "date": "2026-04-17",
-          "time": "14:30"
-        },
-        {
-          "name": "Prove Libere 2",
-          "shortName": "FP2",
-          "date": "2026-04-17",
-          "time": "18:00"
-        },
-        {
-          "name": "Prove Libere 3",
-          "shortName": "FP3",
-          "date": "2026-04-18",
-          "time": "15:30"
-        },
-        {
-          "name": "Qualifiche",
-          "shortName": "QUAL",
-          "date": "2026-04-18",
-          "time": "19:00",
-          "tv": "TV8",
-          "tvTime": "21:30"
-        },
-        {
-          "name": "Gara",
-          "shortName": "GARA",
-          "date": "2026-04-19",
-          "time": "18:00",
-          "tv": "TV8",
-          "tvTime": "21:30"
-        }
-      ]
-    },
-    {
-      "name": "Gran Premio dell'Arabia Saudita",
-      "circuit": "Jeddah Corniche Circuit",
-      "country": "Arabia Saudita",
-      "countryCode": "SA",
-      "startDate": "2026-04-24",
-      "endDate": "2026-04-26",
-      "sessions": [
-        {
-          "name": "Prove Libere 1",
-          "shortName": "FP1",
-          "date": "2026-04-24",
-          "time": "15:30"
-        },
-        {
-          "name": "Prove Libere 2",
-          "shortName": "FP2",
-          "date": "2026-04-24",
-          "time": "19:00"
-        },
-        {
-          "name": "Prove Libere 3",
-          "shortName": "FP3",
-          "date": "2026-04-25",
-          "time": "15:30"
-        },
-        {
-          "name": "Qualifiche",
-          "shortName": "QUAL",
-          "date": "2026-04-25",
-          "time": "19:00",
-          "tv": "TV8",
-          "tvTime": "21:30"
-        },
-        {
-          "name": "Gara",
-          "shortName": "GARA",
-          "date": "2026-04-26",
-          "time": "19:00",
-          "tv": "TV8",
-          "tvTime": "21:30"
-        }
-      ]
-    },
-    {
       "name": "Gran Premio di Miami",
       "circuit": "Miami International Autodrome",
       "country": "Stati Uniti",
@@ -240,27 +152,29 @@
           "name": "Prove Libere 1",
           "shortName": "FP1",
           "date": "2026-05-01",
-          "time": "20:30"
+          "time": "18:00"
         },
         {
           "name": "Sprint Qualifying",
           "shortName": "SQ",
-          "date": "2026-05-02",
-          "time": "00:30"
+          "date": "2026-05-01",
+          "time": "22:30"
         },
         {
           "name": "Sprint",
           "shortName": "SPRINT",
           "date": "2026-05-02",
-          "time": "20:00"
+          "time": "18:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
         },
         {
           "name": "Qualifiche",
           "shortName": "QUAL",
-          "date": "2026-05-03",
-          "time": "00:00",
+          "date": "2026-05-02",
+          "time": "22:00",
           "tv": "TV8",
-          "tvTime": "18:00"
+          "tvTime": "22:00"
         },
         {
           "name": "Gara",
@@ -268,7 +182,7 @@
           "date": "2026-05-03",
           "time": "22:00",
           "tv": "TV8",
-          "tvTime": "18:00"
+          "tvTime": "23:30"
         }
       ]
     },

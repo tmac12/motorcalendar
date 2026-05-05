@@ -25,22 +25,25 @@ export interface Championship {
   races: Race[];
 }
 
-const TODAY = new Date().toISOString().split('T')[0];
+export function getToday(): string {
+  return new Date().toISOString().split('T')[0];
+}
 
 export function getNextRace(races: Race[]): Race | null {
-  return races.find(race => race.endDate >= TODAY) ?? null;
+  const today = getToday();
+  return races.find(race => race.endDate >= today) ?? null;
 }
 
 export function isPast(dateStr: string): boolean {
-  return dateStr < TODAY;
+  return dateStr < getToday();
 }
 
 export function isToday(dateStr: string): boolean {
-  return dateStr === TODAY;
+  return dateStr === getToday();
 }
 
 export function isRacePast(race: Race): boolean {
-  return race.endDate < TODAY;
+  return race.endDate < getToday();
 }
 
 export function getMonthGrid(year: number, month: number): (number | null)[][] {

@@ -29,9 +29,9 @@ const flag = countryCodeToFlag(race.countryCode);
       {days.map(day => {
         const dayIsToday = isToday(day);
         return (
-          <div class:list={['px-6 py-4', dayIsToday && 'bg-slate-700/20']}>
+          <div class:list={['px-6 py-4 race-day', dayIsToday && 'bg-slate-700/20']} data-date={day}>
             <h3 class:list={[
-              'text-sm font-bold uppercase tracking-wider mb-3',
+              'text-sm font-bold uppercase tracking-wider mb-3 day-header',
               dayIsToday ? 'text-white' : 'text-slate-500'
             ]}>
               {getDayName(day)} {new Date(day + 'T00:00:00').getDate()}
@@ -78,3 +78,32 @@ const flag = countryCodeToFlag(race.countryCode);
     </div>
   </article>
 </section>
+
+<script define:vars={{ color }}>
+  const today = new Date().toISOString().split('T')[0];
+  
+  document.querySelectorAll('.race-day').forEach(dayDiv => {
+    const date = dayDiv.dataset.date;
+    const isTodayDate = date === today;
+    const isPastDate = date < today;
+    const header = dayDiv.querySelector('.day-header');
+    
+    dayDiv.classList.remove('bg-slate-700/20');
+    if (isTodayDate) dayDiv.classList.add('bg-slate-700/20');
+    
+    header?.classList.remove('text-white', 'text-slate-500');
+    if (isTodayDate) header?.classList.add('text-white');
+    else header?.classList.add('text-slate-500');
+    
+    const oggiBadge = header?.querySelector('.oggi-badge');
+    if (oggiBadge) {
+      if (!isTodayDate) oggiBadge.remove();
+    } else if (isTodayDate) {
+      const span = document.createElement('span');
+      span.className = 'oggi-badge ml-2 text-xs px-2 py-0.5 rounded-full text-white';
+      span.style.background = color;
+      span.textContent = 'OGGI';
+      header?.appendChild(span);
+    }
+  });
+</script>

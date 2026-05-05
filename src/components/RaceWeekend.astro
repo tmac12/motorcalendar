@@ -15,10 +15,10 @@ const flag = countryCodeToFlag(race.countryCode);
 ---
 
 <details class:list={[
-  'rounded-xl border overflow-hidden transition-colors',
+  'race-weekend rounded-xl border overflow-hidden transition-colors',
   past ? 'border-slate-800 bg-slate-900/30' : 'border-slate-700/50 bg-slate-800/30'
 ]}>
-  <summary class="px-4 py-3 flex items-center justify-between gap-3">
+  <summary class="px-4 py-3 flex items-center justify-between gap-3 cursor-pointer">
     <div class="flex items-center gap-3 min-w-0">
       <span class="text-lg flex-shrink-0" aria-label={race.country}>{flag}</span>
       <div class="min-w-0">
@@ -34,7 +34,7 @@ const flag = countryCodeToFlag(race.countryCode);
       </div>
     </div>
     <div class="flex items-center gap-2 flex-shrink-0">
-      <span class:list={['text-xs font-mono', past ? 'text-slate-600' : 'text-slate-400']}>
+      <span class:list={['text-xs font-mono race-dates', past ? 'text-slate-600' : 'text-slate-400']}>
         {new Date(race.startDate + 'T00:00:00').getDate()}-{new Date(race.endDate + 'T00:00:00').getDate()}/{new Date(race.startDate + 'T00:00:00').getMonth() + 1}
       </span>
       <svg class="w-4 h-4 text-slate-500 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -49,7 +49,7 @@ const flag = countryCodeToFlag(race.countryCode);
         return (
           <div>
             <h4 class:list={[
-              'text-xs font-bold uppercase tracking-wider mb-2',
+              'text-xs font-bold uppercase tracking-wider mb-2 day-header',
               dayIsToday ? 'text-white' : 'text-slate-500'
             ]}>
               {getDayName(day)} {new Date(day + 'T00:00:00').getDate()}
@@ -96,3 +96,63 @@ const flag = countryCodeToFlag(race.countryCode);
     </div>
   </div>
 </details>
+
+<script define:vars={{ color }}>
+  const today = new Date().toISOString().split('T')[0];
+  const details = document.currentScript?.closest('.race-weekend');
+  if (!details) return;
+  
+  const raceStart = details.querySelector('.race-dates')?.textContent?.match(/(\d+)-(\d+)\/(\d+)/);
+  if (!raceStart) return;
+  
+  const startDay = parseInt(raceStart[1]);
+  const endDay = parseInt(raceStart[2]);
+  const month = parseInt(raceStart[3]);
+  const year = details.closest('[data-month]')?.dataset.month?.split('-')[0] || new Date().getFullYear();
+  
+  const currentYear = new Date().getFullYear();
+  const currentMonth = new Date().getMonth() + 1;
+  
+  let raceEndDate = today;
+  if (year > currentYear || (year === currentYear && month > currentMonth) || (year === currentYear && month === currentYear)) {
+    raceEndDate = `${year}-${String(month).padStart(2, '0')}-${String(endDay).padStart(2, '0')}`;
+  } else {
+    raceEndDate = `${currentYear}-${String(currentMonth).padStart(2, '0')}-${String(new Date().getDate()).padStart(2, '0')}`;
+  }
+  
+  const isPastRace = raceEndDate < today;
+  const summary = details.querySelector('summary');
+  
+  if (isPastRace) {
+    details.classList.remove('border-slate-700/50', 'bg-slate-800/30');
+    details.classList.add('border-slate-800', 'bg-slate-900/30');
+    summary?.querySelectorAll('h3, p, span').forEach(el => {
+      el.classList.remove('text-white', 'text-slate-400');
+      el.classList.add('text-slate-500', 'text-slate-600');
+    });
+  }
+  
+  details.querySelectorAll('.day-header').forEach(header => {
+    const dayText = header.textContent?.match(/\d+$/)?.[0];
+    if (!dayText) return;
+    const dayDate = `${year}-${String(month).padStart(2, '0')}-${dayText.padStart(2, '0')}`;
+    const isTodayDate = dayDate === today;
+    const isPastDate = dayDate < today;
+    
+    header.classList.remove('text-white', 'text-slate-500');
+    header.classList.add(isTodayDate ? 'text-white' : isPastDate ? 'text-slate-500' : 'text-slate-500');
+    
+    const oggiBadge = header.querySelector('.oggi-badge');
+    if (oggiBadge) {
+      if (!isTodayDate) {
+        oggiBadge.remove();
+      }
+    } else if (isTodayDate) {
+      const span = document.createElement('span');
+      span.className = 'oggi-badge ml-1.5 text-[10px] px-1.5 py-0.5 rounded-full text-white';
+      span.style.background = color;
+      span.textContent = 'OGGI';
+      header.appendChild(span);
+    }
+  });
+</script>

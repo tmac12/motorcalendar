@@ -114,4 +114,56 @@ const defaultId = defaultMonth ? `${defaultMonth.year}-${defaultMonth.month}` : 
       chip.style.background = color;
     });
   });
+
+  const today = new Date().toISOString().split('T')[0];
+  const [todayY, todayM] = [today.slice(0, 4), today.slice(5, 7)];
+  const todayMonthId = `${todayY}-${parseInt(todayM) - 1}`;
+  
+  const defaultChip = document.querySelector('.month-chip[data-month="' + todayMonthId + '"]');
+  if (defaultChip) {
+    document.querySelectorAll('.month-chip').forEach(c => {
+      c.style.background = '';
+      c.classList.remove('text-white');
+      c.classList.add('bg-slate-800', 'text-slate-400');
+    });
+    defaultChip.classList.remove('bg-slate-800', 'text-slate-400');
+    defaultChip.classList.add('text-white');
+    defaultChip.style.background = color;
+    
+    document.querySelectorAll('.month-section').forEach(s => s.classList.add('hidden'));
+    document.getElementById('month-' + todayMonthId)?.classList.remove('hidden');
+  }
+
+  document.querySelectorAll('.month-section').forEach(section => {
+    const monthId = section.dataset.month;
+    const [year, month] = monthId.split('-').map(Number);
+    const monthEnd = new Date(year, month + 1, 0).toISOString().split('T')[0];
+    const monthStart = new Date(year, month, 1).toISOString().split('T')[0];
+    const isFuture = monthStart > today;
+    const isPastMonth = monthEnd < today;
+    
+    section.querySelectorAll('.grid > div').forEach(cell => {
+      const dayText = cell.textContent?.trim();
+      if (!dayText || isNaN(parseInt(dayText))) return;
+      
+      const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${dayText.padStart(2, '0')}`;
+      const isTodayDate = dateStr === today;
+      const isPastDate = dateStr < today;
+      
+      cell.classList.remove('bg-slate-700', 'font-bold', 'text-white', 'bg-slate-900/50', 'text-slate-600', 'text-slate-300');
+      
+      if (isTodayDate) {
+        cell.classList.add('bg-slate-700', 'font-bold', 'text-white');
+      } else if (isPastDate) {
+        cell.classList.add('bg-slate-900/50', 'text-slate-600');
+      } else {
+        cell.classList.add('bg-slate-900/50', 'text-slate-300');
+      }
+      
+      const dot = cell.querySelector('span');
+      if (dot) {
+        dot.style.background = isPastDate ? '#475569' : color;
+      }
+    });
+  });
 </script>

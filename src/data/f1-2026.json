@@ -197,9 +197,12 @@
       "sessions": [
         { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-05-22", "time": "18:30" },
         { "name": "Qualifiche Sprint", "shortName": "SQ", "date": "2026-05-22", "time": "22:30" },
-        { "name": "Gara Sprint", "shortName": "SPR", "date": "2026-05-23", "time": "18:00" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-05-23", "time": "22:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-05-24", "time": "22:00" }
+        { "name": "Gara Sprint", "shortName": "SPR", "date": "2026-05-23", "time": "18:00", "tv": "TV8",
+          "tvTime": "18:00" },
+        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-05-23", "time": "22:00", "tv": "TV8",
+          "tvTime": "22:00" },
+        { "name": "Gara", "shortName": "GARA", "date": "2026-05-24", "time": "22:00", "tv": "TV8",
+          "tvTime": "23:30" }
       ]
     },
     {

@@ -218,7 +218,9 @@
         { "name": "Prove Libere 2", "shortName": "FP2", "date": "2026-06-05", "time": "17:00" },
         { "name": "Prove Libere 3", "shortName": "FP3", "date": "2026-06-06", "time": "12:30" },
         { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-06-06", "time": "16:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-06-07", "time": "15:00" }
+        { "name": "Gara", "shortName": "GARA", "date": "2026-06-07", "time": "15:00",
+"tv": "TV8",
+          "tvTime": "18:30" }
       ]
     },
     {

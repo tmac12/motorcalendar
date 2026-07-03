@@ -273,10 +273,18 @@
       "sprint": true,
       "sessions": [
         { "name": "Prove Libere 1", "shortName": "FP1", "date": "2026-07-03", "time": "13:30" },
-        { "name": "Qualifiche Sprint", "shortName": "SQ", "date": "2026-07-03", "time": "17:30" },
-        { "name": "Gara Sprint", "shortName": "SPR", "date": "2026-07-04", "time": "13:00" },
-        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-07-04", "time": "17:00" },
-        { "name": "Gara", "shortName": "GARA", "date": "2026-07-05", "time": "16:00" }
+        { "name": "Qualifiche Sprint", "shortName": "SQ", "date": "2026-07-03", "time": "17:30" 
+"tv": "TV8",
+          "tvTime": "17:30"},
+        { "name": "Gara Sprint", "shortName": "SPR", "date": "2026-07-04", "time": "13:00",
+"tv": "TV8",
+          "tvTime": "13:00" },
+        { "name": "Qualifiche", "shortName": "QUAL", "date": "2026-07-04", "time": "17:00",
+"tv": "TV8",
+          "tvTime": "17:00" },
+        { "name": "Gara", "shortName": "GARA", "date": "2026-07-05", "time": "16:00", "tv": "TV8",
+          "tvTime": "19:00"
+}
       ]
     },
     {

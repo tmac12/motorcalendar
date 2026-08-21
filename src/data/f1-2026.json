@@ -520,25 +520,33 @@
           "name": "Qualifiche Sprint",
           "shortName": "SQ",
           "date": "2026-08-21",
-          "time": "16:30"
+          "time": "16:30",
+          "tv": "TV8",
+          "tvTime": "16:30"
         },
         {
           "name": "Gara Sprint",
           "shortName": "SPR",
           "date": "2026-08-22",
-          "time": "12:00"
+          "time": "12:00",
+          "tv": "TV8",
+          "tvTime": "12:00"
         },
         {
           "name": "Qualifiche",
           "shortName": "QUAL",
           "date": "2026-08-22",
-          "time": "16:00"
+          "time": "16:00",
+          "tv": "TV8",
+          "tvTime": "16:00"
         },
         {
           "name": "Gara",
           "shortName": "GARA",
           "date": "2026-08-23",
-          "time": "15:00"
+          "time": "15:00",
+          "tv": "TV8",
+          "tvTime": "18:00"
         }
       ]
     },
